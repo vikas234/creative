@@ -1,0 +1,22 @@
+ ul li{
+	display: inline-block;
+	margin:20px;
+	padding: 5px 15px;	
+	position: relative;
+}
+nav ul ul{
+	display: none;
+}
+nav ul li:hover ul{
+	display: block;
+	position: absolute;
+	padding-left: 0px;
+}
+nav ul li ul li{
+	display: block;
+	float: left;
+}
+.nav1{
+background-color: black;
+font-size: 30px;
+}
